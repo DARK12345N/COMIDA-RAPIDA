@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTFOOD EXPRESS!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagenes/Captura de pantalla 2026-08-11 145800.png" alt="Logo CEA" width="50" height="50">
+                <div class="logo-text">
+                    <h1>FASTFOOD EXPRESS!</h1>
+                    <p class="slogan">Comida Rápida de Calidad</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="carrito-icon">
+                <span id="contador-carrito">0</span>
+                <button id="btn-carrito">🛒</button>
+            </div>
+        </nav>
+    </header>
+
+    <div id="modal-carrito" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Tu Pedido</h2>
+            <div id="items-carrito"></div>
+            <div class="total-carrito">
+                <h3>Total: $<span id="total-pedido">0.00</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <img src="imagenes/Captura de pantalla 2026-08-11 145800.png" alt="Logo CEA" width="300" height="300">
+            <h1>¡Bienvenido a FastFood Express!</h1>
+            <p>La mejor comida rápida a tu alcance</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FastFood Express. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
